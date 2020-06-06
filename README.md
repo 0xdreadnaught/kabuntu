@@ -10,24 +10,47 @@ chmod +x ./kabuntu.sh
 
 # Current Packages
 unzip
+
 vim-gtk3
+
 curl
+
 mlocate
+
 ruby/ruby-dev
+
 python3
+
 Metasploit
+
 Searchsploit
+
 Impacket
+
 Seclists
+
 Offsec  Bin-sploits
+
 KaliLists
+
 NMap
+
 SMBClient
+
 Evil WinRM
+
 Burp
+
 John the Ripper
+
 Cewl
+
 Crunch
+
 Hydra
+
 Hashcat
 
+CherryTree
+
+SamDump2
