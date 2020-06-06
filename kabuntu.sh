@@ -99,3 +99,12 @@ apt-get install -y hydra
 
 #Install Hashcat
 apt-get install -y hashcat
+
+#Install CherryTree
+cherrylatest=$(curl https://www.giuspen.com/cherrytree/\#dev | grep "\.deb" | grep "software" | awk '{print $NF}' | sed 's/</ /g' | sed 's/>/ /g' | awk '{print $2}' | tail -n 1)
+wget https://giuspen.com/software/"$cherrylatest" -O /opt/"$cherrylatest"
+dpkg -i /opt/"$cherrylatest"
+apt --fix-broken install -y
+dpkg -i /opt/"$cherrytree"
+apt-get install -f
+
