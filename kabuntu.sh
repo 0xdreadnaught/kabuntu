@@ -110,3 +110,6 @@ apt-get install -f
 
 #Install SQLMap
 apt-get install -y sqlmap
+
+#Install SamDump2
+apt-get install -y samdump2
