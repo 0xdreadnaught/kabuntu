@@ -86,7 +86,18 @@ mv /usr/local/bin/BurpSuiteCommunity /usr/local/bin/burpsuite
 updatedb
 
 #Install John the Ripper
-apt-get install -y john
+git clone "https://github.com/magnumripper/JohnTheRipper.git" /opt/john
+apt-get install -y libssl-dev
+savedir=$(pwd)
+cd /opt/john/src
+./configure
+make -s clean
+make -sj4
+cd "$savedir"
+ln -s /opt/john/run/7z2john.pl /usr/local/bin/7z2john
+ln -s /opt/john/run/zip2john.pl /usr/local/bin/zip2john
+ln -s /opt/john/run/rar2john /usr/local/bin/rar2john
+ln -s /opt/john/run/unshadow /usr/local/bin/unshadow
 
 #Install Cewl
 apt-get install -y cewl
