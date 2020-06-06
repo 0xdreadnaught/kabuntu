@@ -108,3 +108,5 @@ apt --fix-broken install -y
 dpkg -i /opt/"$cherrytree"
 apt-get install -f
 
+#Install SQLMap
+apt-get install -y sqlmap
