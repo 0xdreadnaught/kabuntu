@@ -1,6 +1,7 @@
 # kabuntu
 Deploy Kali type tools on Ubuntu 20.x
 This is a work in progress. I will continue to update the script as I add more to the system.
+The script could be much more efficient, but I've broken apart the packages so people can easily exclude things they don't want.
 
 # Usage
 Run the script as root, or with sudo.
