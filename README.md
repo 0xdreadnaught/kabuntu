@@ -53,4 +53,6 @@ Hashcat
 
 CherryTree
 
+SQLMap
+
 SamDump2
