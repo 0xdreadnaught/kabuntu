@@ -172,3 +172,6 @@ ln -s /opt/stegsolve/stegsolve.jar /usr/local/bin/stegsolve
 chmod +x /opt/stegsolve/stegsolve.jar
 chmod +x /usr/local/bin/stegsolve
 updatedb
+
+#Install Binwalk
+apt-get install binwalk
