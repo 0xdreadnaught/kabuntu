@@ -72,3 +72,5 @@ Exiftool
 Steghide
 
 Stegsolve
+
+Binwalk
