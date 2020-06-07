@@ -152,3 +152,4 @@ sed -i 's/  get_permission/ #get_permission/g' /opt/beef/install
 sed -i 's/apt-get /apt-get -y /g' /opt/beef/install
 /opt/beef/install
 ln -s /opt/beef/beef /usr/local/bin/beef-xss
+sed -i 's/passwd: "beef"/passwd: "kabuntu"/g' /opt/beef/config.yaml
