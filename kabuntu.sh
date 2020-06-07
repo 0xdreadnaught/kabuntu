@@ -153,3 +153,6 @@ sed -i 's/apt-get /apt-get -y /g' /opt/beef/install
 /opt/beef/install
 ln -s /opt/beef/beef /usr/local/bin/beef-xss
 sed -i 's/passwd: "beef"/passwd: "kabuntu"/g' /opt/beef/config.yaml
+
+#Install Nikto
+apt-get install -y nikto
