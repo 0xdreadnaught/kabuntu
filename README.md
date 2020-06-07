@@ -31,7 +31,7 @@ Seclists
 
 Offsec Binaries
 
-wordlists
+KaliLists
 
 Nmap
 
@@ -66,3 +66,9 @@ WFuzz
 Beef Framework
 
 Nikto
+
+Exiftool
+
+Steghide
+
+Stegsolve
