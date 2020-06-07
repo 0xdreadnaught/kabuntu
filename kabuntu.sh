@@ -124,3 +124,31 @@ apt-get install -y sqlmap
 
 #Install SamDump2
 apt-get install -y samdump2
+
+#Install Gobuster
+apt-get install -y gobuster
+
+#Install Dirb
+apt-get install -y dirb
+
+#Install WFuzz
+apt-get install -y wfuzz
+
+#Install Beef Framework
+git clone https://github.com/beefproject/beef /opt/beef
+gem install eventmachine
+gem install thin
+gem install sinatra
+gem install em-websocket
+gem install uglifier
+gem install ansi
+gem install term-ansicolor
+gem install espeak-ruby
+gem install otr-activerecord
+gem install sqlite3
+gem install maxmind-db
+gem install parseconfig
+sed -i 's/  get_permission/ #get_permission/g' /opt/beef/install
+sed -i 's/apt-get /apt-get -y /g' /opt/beef/install
+/opt/beef/install
+ln -s /opt/beef/beef /usr/local/bin/beef-xss
