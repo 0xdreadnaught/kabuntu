@@ -95,9 +95,9 @@ make -s clean
 make -sj4
 cd "$savedir"
 ln -s /opt/john/run/7z2john.pl /usr/local/bin/7z2john
-ln -s /opt/john/run/zip2john.pl /usr/local/bin/zip2john
-ln -s /opt/john/run/rar2john /usr/local/bin/rar2john
-ln -s /opt/john/run/unshadow /usr/local/bin/unshadow
+cp /opt/john/run/zip2john.pl /usr/local/bin/zip2john
+cp /opt/john/run/rar2john /usr/local/bin/rar2john
+cp /opt/john/run/unshadow /usr/local/bin/unshadow
 
 #Install Cewl
 apt-get install -y cewl
