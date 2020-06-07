@@ -158,3 +158,17 @@ sed -i 's/passwd: "beef"/passwd: "kabuntu"/g' /opt/beef/config.yaml
 
 #Install Nikto
 apt-get install -y nikto
+
+#Install ExifTool
+apt-get install -y exiftool
+
+#Install Steghide
+apt-get install -y steghide
+
+#Install Stegsolve
+mkdir /opt/stegsolve
+wget https://www.wechall.net/de/download/12/Stegsolve_jar -O /opt/stegsolve/stegsolve.jar
+ln -s /opt/stegsolve/stegsolve.jar /usr/local/bin/stegsolve
+chmod +x /opt/stegsolve/stegsolve.jar
+chmod +x /usr/local/bin/stegsolve
+updatedb
