@@ -64,3 +64,5 @@ Dirb
 WFuzz
 
 Beef Framework
+
+Nikto
