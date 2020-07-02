@@ -175,3 +175,6 @@ updatedb
 
 #Install Binwalk
 apt-get install binwalk
+
+#Install SMBMap
+apt-get install smbmap
