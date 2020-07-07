@@ -181,3 +181,6 @@ apt-get install smbmap
 
 #Install NFS Tools
 apt-get install nfs-common
+
+#Install RDekstop
+apt-get install rdesktop
