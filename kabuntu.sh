@@ -178,3 +178,6 @@ apt-get install binwalk
 
 #Install SMBMap
 apt-get install smbmap
+
+#Install NFS Tools
+apt-get install nfs-common
