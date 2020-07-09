@@ -80,3 +80,5 @@ SMBMap
 NFS Tools
 
 RDekstop
+
+SSHfs
