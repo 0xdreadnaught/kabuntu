@@ -184,3 +184,6 @@ apt-get install nfs-common
 
 #Install RDekstop
 apt-get install rdesktop
+
+#Install SSHfs
+apt-get install sshfs
